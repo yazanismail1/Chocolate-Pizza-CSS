@@ -1,0 +1,10 @@
+/*
+font-family: 'Noto Serif', serif;   ---- for the body and general
+font-family: 'Patrick Hand', cursive;   ---- for the ingredients
+font-family: 'Roboto Condensed', sans-serif;   ---- for the headings
+font-family: 'Yellowtail', cursive;   ---- for the logo
+*/
+
+body {
+    padding: 0 150px;
+}
