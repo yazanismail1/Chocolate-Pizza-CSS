@@ -17,11 +17,19 @@ header {
     display: inline-block;
 }
 
+.logo-header img:hover, .logo-name:hover{
+    cursor: pointer;
+}
+
 .social-first, .social-second {
     position: relative;
     left: 745px;
     padding-left: 15px;
     text-align: left;
+}
+
+.social-first img:hover, .social-second img:hover {
+    cursor: pointer;
 }
 
 .logo-name {
@@ -58,6 +66,10 @@ header {
 
 .blog-title, .print-logo {
     display: inline-block;
+}
+
+.print-logo:hover{
+    cursor: pointer;
 }
 
 .print-logo .print-text {
@@ -118,4 +130,69 @@ header {
 
 .td-r {
     padding-left: 250px;
+}
+
+.feedback-section {
+    padding-top: 25px;
+}
+
+.user-img, .user-feedback, button {
+    display: inline-block;
+}
+
+.user-feedback {
+    vertical-align: top;
+    padding: 0 146px 0 25px;
+}
+
+.user-feedback h2 {
+    padding-bottom: 10px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.user-feedback p {
+    font-size: 20px;
+}
+
+button {
+    vertical-align: top;
+    width: 200px;
+    height: 52px;
+    font-size: 16px;
+    background-color: #d8613c;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+footer {
+    position: relative;
+    padding: 100px 0;
+    text-align: center;
+    color: #999999;
+}
+
+footer hr {
+    position: absolute;
+    width: 100%;
+    top: 107px;
+    z-index: -1;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.01px solid #bdbbbb;
+
+}
+
+footer img {
+    background-color: white;
+    padding: 0 5px 20px 5px;
+}
+
+footer p {
+    line-height: 1.5;
 }
